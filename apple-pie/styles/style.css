@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    background-image: url("https://github.com/Konradvr/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true");
+    background-position: 0 0;
+    background-repeat: non-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    color: white;
+    font-size: 160px;
+    font-family:'Roboto', sans-serif;
+}
+
+#section-1 article {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+
+}
+
+#section-1 div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#section-1 hr{
+    padding: 0 3px;
+}
+
+#section-2 div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+}
+
+h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 180px;
+    padding-top: 30x;
+    font-size: 40px;
+}
+
+hr{
+    width: 1125px;
+    align-items: center;
+}
+
+ul{
+    font-family:'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-left: 180px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+
+#section-3 p{
+    font-family:'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-left: 230px;
+    list-style-type: none;
+    font-size: 25px;
+}
