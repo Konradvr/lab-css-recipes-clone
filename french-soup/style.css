@@ -1,0 +1,92 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+@import url("//fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    background-image: url("https://github.com/Konradvr/lab-css-recipes-clone/blob/master/french-soup/images/soup.jpg?raw=true");
+    background-position: 0 0;
+    background-repeat: non-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    color: white;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+#section-1 article {
+    margin-top: 70px;
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    margin-left: 150px;
+
+}
+
+#section-1 div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#section-1 hr{
+    padding: 0 3px;
+}
+
+#section-2 div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+}
+
+h2{
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 180px;
+  padding-top: 30x;
+  font-size: 40px;
+}
+
+hr{
+    width: 1125px;
+    align-items: center;
+}
+
+ul{
+  font-family: sans-serif;
+  margin-left: 180px;
+  list-style-type: none;
+  font-size: 25px;
+  }
+
+
+#section-3 p{
+  font-family: sans-serif;
+  margin-left: 230px;
+  list-style-type: none;
+  font-size: 25px;
+}
+
